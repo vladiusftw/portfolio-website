@@ -1,0 +1,56 @@
+{
+  "id": "home_hero",
+  "type": "SharedSlice",
+  "name": "HomeHero",
+  "description": "HomeHero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "desc": {
+          "type": "Text",
+          "config": {
+            "label": "desc",
+            "placeholder": ""
+          }
+        },
+        "img": {
+          "type": "Image",
+          "config": {
+            "label": "img",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "buttontext": {
+          "type": "Text",
+          "config": {
+            "label": "buttonText",
+            "placeholder": ""
+          }
+        },
+        "buttonlink": {
+          "type": "Text",
+          "config": {
+            "label": "buttonLink",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}

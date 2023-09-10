@@ -1,0 +1,86 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "never",
+				"type": "Text"
+			},
+			"name": {
+				"__TYPE__": "FieldContent",
+				"value": "ready",
+				"type": "Text"
+			},
+			"desc": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Pariatur mollit ad consectetur et ad amet id dolore incididunt dolor ex dolor sit."
+						}
+					}
+				]
+			},
+			"info": {
+				"__TYPE__": "FieldContent",
+				"value": "easy",
+				"type": "Text"
+			},
+			"img": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9",
+					"width": 4752,
+					"height": 3168
+				},
+				"url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9",
+				"width": 4752,
+				"height": 3168,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"thumbnails": {}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "throw",
+							"type": "Text"
+						}
+					],
+					[
+						"num",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "59",
+							"type": "Number"
+						}
+					],
+					[
+						"suffix",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "arrange",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]
