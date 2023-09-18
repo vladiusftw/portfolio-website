@@ -1,0 +1,33 @@
+{
+    "id": "imagelist",
+    "label": "imageList",
+    "format": "custom",
+    "repeatable": true,
+    "status": true,
+    "json": {
+        "Main": {
+            "uid": {
+                "config": {
+                    "label": "UID"
+                },
+                "type": "UID"
+            },
+            "images": {
+                "type": "Group",
+                "config": {
+                    "label": "images",
+                    "fields": {
+                        "image": {
+                            "type": "Image",
+                            "config": {
+                                "label": "image",
+                                "constraint": {},
+                                "thumbnails": []
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -14,15 +14,9 @@
 				"type": "Text"
 			},
 			"desc": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "paragraph",
-						"content": {
-							"text": "Pariatur mollit ad consectetur et ad amet id dolore incididunt dolor ex dolor sit."
-						}
-					}
-				]
+				"__TYPE__": "FieldContent",
+				"value": "time",
+				"type": "Text"
 			},
 			"info": {
 				"__TYPE__": "FieldContent",
@@ -30,7 +24,6 @@
 				"type": "Text"
 			},
 			"img": {
-				"__TYPE__": "ImageContent",
 				"origin": {
 					"id": "main",
 					"url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9",
@@ -48,6 +41,9 @@
 					},
 					"background": "transparent"
 				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
 				"thumbnails": {}
 			}
 		},

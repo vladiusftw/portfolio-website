@@ -12,10 +12,10 @@
       "description": "Default",
       "imageUrl": "",
       "primary": {
-        "desc": {
+        "title": {
           "type": "Text",
           "config": {
-            "label": "desc",
+            "label": "title",
             "placeholder": ""
           }
         },
@@ -27,10 +27,17 @@
             "thumbnails": []
           }
         },
-        "title": {
+        "descs": {
+          "type": "Link",
+          "config": {
+            "label": "descs",
+            "select": "document"
+          }
+        },
+        "descsuffix": {
           "type": "Text",
           "config": {
-            "label": "title",
+            "label": "descSuffix",
             "placeholder": ""
           }
         }

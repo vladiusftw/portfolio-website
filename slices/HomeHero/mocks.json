@@ -3,16 +3,6 @@
 		"__TYPE__": "SharedSliceContent",
 		"variation": "default",
 		"primary": {
-			"title": {
-				"__TYPE__": "FieldContent",
-				"value": "hour",
-				"type": "Text"
-			},
-			"desc": {
-				"__TYPE__": "FieldContent",
-				"value": "cat",
-				"type": "Text"
-			},
 			"img": {
 				"origin": {
 					"id": "main",
@@ -35,6 +25,23 @@
 				"alt": null,
 				"__TYPE__": "ImageContent",
 				"thumbnails": {}
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "steep",
+				"type": "Text"
+			},
+			"descs": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			},
+			"descsuffix": {
+				"__TYPE__": "FieldContent",
+				"value": "putting",
+				"type": "Text"
 			}
 		},
 		"items": [

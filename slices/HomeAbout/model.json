@@ -26,15 +26,6 @@
             "placeholder": ""
           }
         },
-        "desc": {
-          "type": "StructuredText",
-          "config": {
-            "label": "desc",
-            "placeholder": "",
-            "allowTargetBlank": true,
-            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-          }
-        },
         "info": {
           "type": "Text",
           "config": {
@@ -48,6 +39,13 @@
             "label": "img",
             "constraint": {},
             "thumbnails": []
+          }
+        },
+        "desc": {
+          "type": "Text",
+          "config": {
+            "label": "desc",
+            "placeholder": ""
           }
         }
       },

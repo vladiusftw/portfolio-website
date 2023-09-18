@@ -1,0 +1,76 @@
+{
+    "id": "titledescdateimagelist",
+    "label": "TitleDescDateImageList",
+    "format": "custom",
+    "repeatable": true,
+    "status": true,
+    "json": {
+        "Main": {
+            "uid": {
+                "config": {
+                    "label": "UID"
+                },
+                "type": "UID"
+            },
+            "title": {
+                "type": "Text",
+                "config": {
+                    "label": "title",
+                    "placeholder": ""
+                }
+            },
+            "img": {
+                "type": "Image",
+                "config": {
+                    "label": "img",
+                    "constraint": {},
+                    "thumbnails": []
+                }
+            },
+            "list": {
+                "type": "Group",
+                "config": {
+                    "label": "list",
+                    "fields": {
+                        "title": {
+                            "type": "Text",
+                            "config": {
+                                "label": "title",
+                                "placeholder": ""
+                            }
+                        },
+                        "desc": {
+                            "type": "Text",
+                            "config": {
+                                "label": "desc",
+                                "placeholder": ""
+                            }
+                        },
+                        "date": {
+                            "type": "Text",
+                            "config": {
+                                "label": "date",
+                                "placeholder": ""
+                            }
+                        },
+                        "dateimage": {
+                            "type": "Image",
+                            "config": {
+                                "label": "dateImage",
+                                "constraint": {},
+                                "thumbnails": []
+                            }
+                        },
+                        "imagelist": {
+                            "type": "Link",
+                            "config": {
+                                "label": "imageList",
+                                "select": "document"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
