@@ -34,7 +34,7 @@ export const createClient = (config: prismicNext.CreateClientConfig = {}) => {
                 ? { next: { tags: ['prismic'] }, cache: 'force-cache' }
                 : { next: { revalidate: 5 } },
         ...config,
-        accessToken: process?.env?.VERCEL_TOKEN,
+        accessToken: process?.env?.PRISMIC_TOKEN,
     })
 
     prismicNext.enableAutoPreviews({
