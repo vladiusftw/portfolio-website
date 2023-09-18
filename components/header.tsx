@@ -109,7 +109,10 @@ const Header = ({ data }: Props) => {
                         >
                             {data.links.map((link) => {
                                 return (
-                                    <Link href={`/${link.value}`}>
+                                    <Link
+                                        href={`/${link.value}`}
+                                        key={link.value}
+                                    >
                                         <span
                                             className={`text-gradient font-medium`}
                                         >
