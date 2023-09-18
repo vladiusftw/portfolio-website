@@ -5,6 +5,7 @@ import * as prismicH from '@prismicio/helpers'
 import Image from 'next/image'
 import Link from 'next/link'
 import TypeAnimation from '@/components/typeAnimation'
+import Particles from '@/components/particles'
 
 /**
  * Props for `HomeHero`.
@@ -26,8 +27,9 @@ const HomeHero = ({ slice }: HomeHeroProps): JSX.Element => {
         <section
             data-slice-type={slice.slice_type}
             data-slice-variation={slice.variation}
-            className="px-[20px] md:px-[40px] w-full flex flex-col items-center "
+            className="px-[20px] md:px-[40px] w-full flex flex-col items-center relative"
         >
+            <Particles />
             <InViewContainer
                 direction="left"
                 id={'home'}
